@@ -8,8 +8,7 @@ then
 	echo "You don't have imagemagick installed, please install it before trying to run this script."
 	exit
 fi
-# zenityVersion=$(zenity --version 2>&1)
-# echo $zenityVersion
+
 if ! [ -x  $(command -v zenity) ]
 then
 	echo "Zenity isn't installed, please install it before trying to run this script."
